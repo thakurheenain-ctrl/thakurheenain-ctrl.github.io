@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Ads Simulation — Heena Thakur</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .cs-header { padding: 6rem 0 3rem; border-bottom: 1px solid rgba(0,0,0,0.1); margin-bottom: 4rem;}
+        .cs-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 4rem; }
+        .cs-sidebar { background: var(--bg-secondary); padding: 2rem; height: fit-content; }
+        .data-point { margin-bottom: 1.5rem; }
+        .data-point span { display: block; font-size: 2rem; font-family: var(--font-display); color: var(--orange-accent); font-weight: bold;}
+        .disclosure { font-size: 0.85rem; color: var(--text-soft); border-left: 3px solid var(--orange-accent); padding-left: 1rem; margin-top: 2rem; }
+        @media(max-width:768px){ .cs-grid { grid-template-columns: 1fr;} }
+    </style>
+</head>
+<body>
+    <nav class="site-nav"><div class="nav-container"><a href="../index.html" class="logo">&larr; Back to Portfolio</a></div></nav>
+    <div class="container">
+        <header class="cs-header">
+            <span class="tag bg-yellow">Google Ads Simulation</span>
+            <h1 style="margin-top: 1rem;">Finding the gap between lead volume and qualified pipeline</h1>
+            <p class="subtitle">Diagnosing a lead-quality problem and tightening the ad message around the buyer problem that matters.</p>
+        </header>
+        <div class="cs-grid">
+            <article class="cs-content">
+                <h2>The Business Challenge</h2>
+                <p>RevFlow was modeled as a B2B SaaS company using Google Search to acquire demand. The starting account produced 200 leads from a $20,000 monthly budget, but only 30 were considered ICP-fit and sales-accepted.</p>
+                
+                <h2 style="margin-top: 3rem;">What I Identified</h2>
+                <p>The campaign was being optimized around <em>Demo Form Submitted</em> rather than lead quality. CRM feedback showed only 15% of leads were fit. The existing ad messaging used broad language, while the target market was much narrower.</p>
+                
+                <h2 style="margin-top: 3rem;">Execution & Results</h2>
+                <p>I reviewed the starting funnel across clicks, leads, and qualified leads. I developed a revised Google Search ad messaging strategy around opportunity identification rather than broad SaaS benefits.</p>
+                <p><strong>Primary KPI Shift:</strong> Moved from tracking total form submissions to tracking ICP-fit, sales-accepted leads.</p>
+            </article>
+            <aside class="cs-sidebar">
+                <h3>Simulation Data</h3>
+                <div class="data-point"><span>$20,000</span>Monthly Budget</div>
+                <div class="data-point"><span>2,000</span>Clicks</div>
+                <div class="data-point"><span>200</span>Total Leads</div>
+                <div class="data-point"><span>30</span>Qualified Leads</div>
+                <div class="disclosure">
+                    <strong>Portfolio Disclosure:</strong> This is a fictional B2B SaaS strategic simulation created to demonstrate analysis and strategy. No real-world performance lift or client is claimed.
+                </div>
+            </aside>
+        </div>
+    </div>
+</body>
+</html>
