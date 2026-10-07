@@ -170,7 +170,14 @@ h2 { font-size: clamp(2.5rem, 4vw, 3.5rem); }
 .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
 .about-statement { font-size: clamp(2rem, 4vw, 3rem); line-height: 1.1; margin-bottom: 2rem; }
 .editorial-composition { position: relative; }
-.about-img { width: 100%; object-fit: contain; background: var(--bg-secondary); padding: 2rem; }
+.about-img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  background: var(--bg-secondary);
+  padding: 2rem;
+  display: block;
+}
 .sticky-note {
   position: absolute; background: var(--bg-secondary); padding: 0.75rem 1.5rem;
   font-family: var(--font-editorial); font-size: 1.1rem; font-weight: 600;
